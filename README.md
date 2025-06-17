@@ -1,16 +1,3 @@
----
-title: CathayLifeProject
-emoji: 🚀
-colorFrom: green
-colorTo: green
-sdk: streamlit
-app_port: 8501
-tags:
-- streamlit
-pinned: false
-short_description: Streamlit template space
-license: mit
----
 # 國泰人壽用戶行為預測工具
 
 **這是一個基於深度學習的用戶行為預測工具，使用 LSTM 模型預測用戶的下一步行為、網路投保機率以及預約O2O機率，並提供後續行銷建議。**
@@ -18,14 +5,14 @@ license: mit
 ## 《 功能特色 》
 - 多輸出預測：行為分組、線上轉換機率、O2O 預約機率
 - 互動式資料視覺化
-- CSV 檔案上傳與預測期間篩選
+- 以BigQuery進行資料處理與預測期間篩選
 - 分析結果篩選與下載
 - 行銷策略建議
   
 -------------------------------
 
 ## 《 使用方法 》
-1. 上傳包含用戶行為資料的 CSV 檔案
+1. 確認BigQuery內有相關資料
 2. 選擇要給模型讀取並預測的期間
 3. 點擊「開始預測」，開始進行預測分析
 4. 查看預測結果及視覺化圖表
